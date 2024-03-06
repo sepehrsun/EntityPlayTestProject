@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" 
+                   assembly="EntityPlayTestProject" 
+                   namespace="EntityPlayTestProject.Domain">
+ 
+  <class name="PersonSubject">
+    <id name="Id">
+      <generator class="guid" />
+    </id>
+    <property name="FirsName" />
+    <property name="LastName" />
+    <property name="PhoneNumber" />
+  </class>
+  
+</hibernate-mapping>
+
